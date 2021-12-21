@@ -1,0 +1,16 @@
+name: 'Thank You Action'
+description: 'Say "Thank You" to new pull requests'
+author: 'Dieni'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  
+  TENOR_TOKEN:
+    description: 'Tenor token'
+    required: true
+
+runs:
+  using: 'node 14.18.1'
+  main: 'dist/index.js'
