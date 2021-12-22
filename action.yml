@@ -12,5 +12,5 @@ inputs:
     required: true
 
 runs:
-  using: 'node 14.18.1'
+  using: 'node14.18.1'
   main: 'dist/index.js'
